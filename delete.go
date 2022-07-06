@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func delete_user(userID string) string {
 	message := "User not found"
